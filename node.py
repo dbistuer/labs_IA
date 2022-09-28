@@ -12,6 +12,7 @@ class Node:
         
 
     def __str__(self):
+        raise NotImplemented()
     	return super().__str__()+ 'Node: '+self.state + ' ' + self.parent+' parent:'
 
 
